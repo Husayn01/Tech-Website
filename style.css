@@ -56,6 +56,8 @@ hr{
    margin-bottom: 2rem;
 }
 .second-row .img{
+   max-width:100px;
+   Height:auto;
    margin: 12px;
    float: left;
 }
