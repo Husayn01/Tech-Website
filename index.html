@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> 
+
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font awesome --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <!-- Stylesheet --> 
+  <link rel="stylesheet" href="style.css">
+
+    <title>Tech Website</title>
+</head>
+<body>
+
+    <div class=".container-fluid">
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-md  navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+            <img src="images\logo.svg" alt="Logo" style="width:40px;">
+        </a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--First row-->
+    <div class="row first-row">
+        <!--First col-->
+        <div class="col-sm-8">
+            <picture>
+                <source media="(min-width: 650px)" srcset="images/image-web-3-desktop.jpg">
+                <source media="(min-width: 465px)" srcset="images/image-web-3-mobile.jpg">
+                <img class="img img-fluid" src="images/image-web-3-desktop.jpg" alt="Image desktop" style="width:auto;">
+              </picture>
+
+            <!--First inner row-->
+            <div class="row inner-row">
+
+                <div class="col-sm-6">
+                    <h1>The Bright Future of Web 3.0?</h1>
+                </div>
+
+                <div class="col-sm-6">
+                    <p>We dive into the next evolution of the web that claims to put 
+                    the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?</p>
+                    <a class="btn btn-primary" href="">Read More</a>
+                </div>
+
+            </div>
+
+        </div>
+         <!--Second col-->
+        <div class="col-sm-4 bg-primary">
+            <h1 style="text-align: center;">New Posts</h1>
+            <h4><a href=""><i class="fa-solid fa-square-check"></i> Hydrogen VS Electric Cars</a></h4>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            <hr>
+            <h4><a href=""><i class="fa-solid fa-square-check"></i> The Downsides of AI Artistry</a></h4>
+            <p>What are the possible adverse effects of on-demand AI image generation?</a></p>
+            <hr>
+            <h4><a href=""><i class="fa-solid fa-square-check"></i> Is VC Funding Drying Up? </a></h4>
+            <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            <hr>
+            <h4><a href=""><i class="fa-solid fa-square-check"></i> Best Offline PC Games in 2022</a></h4>
+            <p>Looking forward to having some fun? check out this games.</p>
+        </div>
+
+    </div>
+    <div class="container-fluid" style="text-align: center;"><h3>Popular posts</h3> <hr></div>
+
+     <!--Second row-->
+    <div class="row second-row">
+
+        <div class="col-sm-4">
+            <a href=""><img class=" img img-fluid" src="images\image-retro-pcs.jpg" alt="image retro"></a>
+            <h1 class="num">01</h1>
+            <h3> <a href="">Reviving Retro PCs</a></h3>
+            <p> What happens when old PCs are given modern upgrades?</p>
+            <a class="btn btn-primary" href="">Read More</a>
+        </div>
+
+        <div class="col-sm-4">
+            <a href=""><img class="img img-fluid" src="images\image-top-laptops.jpg" alt="laptop"></a>
+            <h1 class="num">02</h1>
+            <h3> <a href="">Top 10 Laptops of 2022</a></h3>
+            <p> Our best picks for various needs and budgets.</p>
+            <a class="btn btn-primary" href="">Read More</a>
+        </div>
+
+        <div class="col-sm-4">
+            <a href=""><img class="img img-fluid" src="images\image-gaming-growth.jpg" alt="Gaming"></a>
+            <h1 class="num">03</h1>
+            <h3> <a href=""> The Growth of Gaming</a> </h3>
+            <p> How the pandemic has sparked fresh opportunities.</p>
+            <a class="btn btn-primary" href="">Read More</a>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" style="text-align: center;"><h3>Random posts</h3> <hr></div>
+
+    <!--Third row-->
+    <div class="row third-row">
+
+      <div class="col-sm-6">
+          <a href=""><img class=" img img-fluid" src="images/istockphoto-1139938843-612x612.jpg.webp" alt="man programmer"></a>
+          <h3> <a href="">How to Become a Good Programmer.</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+             labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <a class="btn btn-primary" href="">Read More</a>
+      </div>
+
+      <div class="col-sm-6">
+          <a href=""><img class="img img-fluid" src="images\istockphoto-1365436662-612x612.jpg.webp" alt="job interview"></a>
+          <h3> <a href="">How to Pass a Job Interview in the Tech Industry</a></h3>
+          <p> . Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="btn btn-primary" href="">Read More</a>
+      </div>
+
+  </div>
+
+  <!--Fourth row-->
+  <div class="row fourth-row">
+
+    <div class="col-sm-6">
+        <a href=""><img class=" img img-fluid" src="images/istockphoto-1363104923-612x612.jpg.webp" alt="Team work"></a>
+        <h3> <a href="">Team Work: All you should Know in 2022</a></h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+        <a class="btn btn-primary" href="">Read More</a>
+    </div>
+
+    <div class="col-sm-6">
+        <a href=""><img class="img img-fluid" src="images\istockphoto-1352825038-612x612.jpg.webp" alt="man builder"></a>
+        <h3> <a href="">Top 10 Construction Companies in USA</a></h3>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+           fugit, sed quia consequuntur magni dolores eos qui ratione 
+          voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+        <a class="btn btn-primary" href="">Read More</a>
+    </div>
+
+</div>
+
+
+    <div class="row fifth-row">
+
+        <div class="col-sm-6 left">
+          <div class="container-fluid">
+            <h3>About Us<hr></h3>
+          </div> 
+            <img class="img mx-auto" src="images\logo.svg" alt="">
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+               praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in culpa qui officia
+              deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita 
+              distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+  
+        </div>
+
+        <div class="col-sm-6 right">
+          <h3 style="text-align: left;">Newsletter</h3><hr>
+          <i class="fa-solid fa-bell fa-shake"></i>
+            <p>Sign up for our newsletter to get the latest updates delivered 
+              right into your inbox.
+            </p>
+          <form action="mailto:hussainiahmed222@gmail.com" method="post" name="Emailform" enctype="text/plain">
+            <div class="form-group">
+              <input class="form-control" type="text" name="" value="Your Name">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="email" name="" value="Your Email">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="submit" name="" placeholder="Subscribe">
+            </div>
+          </form>
+        </div>
+
+       </div> 
+
+       <div class="row sixth-row">
+        <h1 style="text-align: center;">Pages</h1><hr>
+        <div class="col-sm-4 left">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Trending</a></li>
+            <li><a href="">Dashboard</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Community</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 right">
+          <h3>Terms and Policies</h3>
+          <ul>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Cookie Policy</a></li>
+            <li><a href="">Cookie Preferences</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 right">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Sitemap</a></li>
+            <li><a href="">Become an Affiliate</a></li>
+          </ul>
+        </div>
+
+       </div> 
+
+       <div class="container-fluid social">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+       </div>
+       <div class="container-fluid footer">
+       <a href="">Home</a><a href="">About</a><a href="">Contact</a>
+       <a href="">Sitemap</a>
+       <p>Copyright &copy 2022, Coded with <i style="color: rgb(22, 125, 215);" class="fa fa-heart"></i> 
+      <a href="https://www.github.com/Husayn01">by Husayn</a></p>
+      </div>
+</body>
+</html>

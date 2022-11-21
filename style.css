@@ -1,0 +1,132 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+   margin: 1rem 1.5rem 1.5rem;
+   background-color: #fff !important;
+}
+.navbar-nav{
+   margin-left: auto;
+}
+.navbar-nav a{
+  color: #000 !important;
+}
+.navbar-nav a:hover{
+   color: rgb(54, 153, 239) !important;
+   transition: 0.3s !important;
+ }
+.row{
+   margin: 1rem;
+}
+a{
+   text-decoration: none;
+   color: #000;
+}
+.col-sm-6, .col-sm-4{
+   padding: 1rem;
+}
+.first-row img:hover{
+   opacity: 0.7;
+   transition: 0.5s;
+}
+.inner-row h1{
+   font-size: 3rem;
+   font-weight: bold;
+}
+.inner-row .btn{
+   margin-top: 1rem;
+}
+.first-row .bg-primary{
+   color: #fff;
+   border-radius: 1rem;
+}
+.bg-primary h1{
+   margin-bottom: 2rem;
+}
+.bg-primary a{
+   color: #fff;
+}
+.bg-primary a:hover{
+   color: rgb(24, 90, 147);
+}
+hr{
+   margin-bottom: 2rem;
+}
+.second-row .img{
+   margin: 12px;
+   float: left;
+}
+.second-row .img:hover{
+   opacity: 0.7;
+   transition: 0.3s;
+}
+.second-row h1{
+  color: rgb(106, 106, 106);
+  margin-top: 0.6rem;
+}
+ .second-row .btn-dark{
+   background-color: #000;
+   color: #fff;
+ }
+ .third-row .img:hover{
+   opacity: 0.7;
+   transition: 0.3s;
+}
+.third-row h3{
+  margin-top: 1rem;
+}
+.fourth-row .img:hover{
+   opacity: 0.7;
+   transition: 0.3s;
+}
+.fourth-row h3{
+   margin-top: 1rem;
+ }
+ .fifth-row .left .img{
+   margin-bottom: 2rem;
+ }
+ .fifth-row .right{
+   text-align: center;
+ }
+ .fifth-row .right i{
+   font-size: 5rem;
+   margin-bottom: 2rem;
+ }
+ .fifth-row .right input{ 
+ margin-bottom: 2rem;
+ border-radius: 0.7rem;
+ }
+ .fifth-row .right input[type="submit"]{ 
+  width: 50%;
+  background-color:  rgb(22, 125, 215);
+  color: #fff;
+  margin: auto;
+   }
+.sixth-row ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.sixth-row ul li{
+   padding-bottom: 1rem;
+}
+.social{
+   text-align: center;
+}
+.social i{
+   color:  rgb(22, 125, 215);
+   font-size: 2rem;
+   padding-left: 2rem;
+}
+.footer{
+   margin-top: 3rem;
+   font-size: 18px;
+   text-align: center;
+}
+.footer a{
+   padding-left: 1rem; 
+}
+
